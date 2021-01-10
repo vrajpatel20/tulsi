@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main_div{
+            height: 100vh;
+            background-color: springgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .main_div .c1{
+            height: 60%;
+            width: 100%;
+            display: flex;
+            /* flex-direction: columns; */
+            justify-content: space-around;
+            align-items: center;
+        }
+        .c1 .con1{
+            width: 50%;
+        }
+        .main_div .svg img{
+            margin-top: 5rem;
+            width: 80%;
+        }
+        .main_div .svg2{
+            width: 100%;
+        }
+        .main_div h1{
+            font-size: 3rem;
+            color: whitesmoke;
+            text-transform: uppercase;
+        }
+        .main_div p{
+            color: whitesmoke;
+            font-size: 2rem;
+        }
+        .c1 button{
+            font-size: 1.2rem;
+            color: black;
+            background-color: #99cc99;
+            width: 50%;
+            border-radius: 5px;
+            box-shadow: 2px 5px 5px grey;
+            border: none;
+            padding: 1rem 1rem;
+        }
+
+        @media screen and (max-width:1200px) {
+            .main_div .svg2{
+               position: absolute;
+               bottom: 0;
+           }
+       }
+        
+       @media screen and (max-width: 700px){
+           .c1{
+               flex-direction: column-reverse;
+           }
+           .main_div .con1{
+               margin-right: 10px;
+               width: 80%;
+               text-align: center;
+               /* background-color: cadetblue; */
+           }
+           .main_div h1{
+               height: 10vh;
+               width: 100%;
+               font-size: 3rem;
+               /* background-color: aquamarine; */
+           }
+           .main_div p{
+               font-size: 1.5rem;
+           }
+           .main_div .svg2{
+               position: absolute;
+               bottom: 0;
+           }
+           .svg2 .svg22{
+               height: 100%;
+               width: 100%;
+           }
+       }
+       @media screen and (max-width:650px) {
+        .main_div .c1 button{
+               width: 60%;
+               display: flex;
+               border-bottom: none;
+               align-items: center;
+               justify-content: center;
+               height: 5vh;
+               margin-left: 80px;
+           }
+       }
+       @media screen and (max-width:400px) {
+        .main_div .c1 button{
+               margin-left: 50px;
+           }
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="main_div">
+        <div class="c1">
+        <div class="svg"><img src="grocerysvg.svg"></div>
+        <div class="con1">
+        <h1>Coming Soon</h1><br><br>
+        <p>Stay updated...</p><br><br>
+        <a href="../Frontpage/index.html"><button>Continue</button></a>
+        </div>
+        </div>
+        <span class="svg2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6C5B7B" fill-opacity="1" d="M0,128L60,128C120,128,240,128,360,133.3C480,139,600,149,720,165.3C840,181,960,203,1080,176C1200,149,1320,75,1380,37.3L1440,0L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg></span>
+    </div>
+</body>
+</html>

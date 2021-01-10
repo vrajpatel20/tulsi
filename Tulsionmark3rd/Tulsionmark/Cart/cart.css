@@ -1,0 +1,29 @@
+body {
+  padding-top: 80px;
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+
+.fixed-topp {
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* left: 0; */
+  z-index: 1030;
+}
+
+.center{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+}

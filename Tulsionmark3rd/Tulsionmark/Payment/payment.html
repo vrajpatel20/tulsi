@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <nav class="navbarp">
+        <div class="logop"></div>
+    </nav>
+    <h3 id="final">Your's final steps for order</h3>
+    <section class="form">
+        <div class="form1">
+        <form action="connect.php" method="POST">
+            <tr>
+                <td>
+                    Name 
+                </td><br><br>
+                <td>
+                    <input type="text" placeholder="Name" name="name" id="name" required>
+                </td>
+
+            </tr><br><br>
+            <tr>
+                <td>
+                    Phone no. 
+                </td><br><br>
+                <td>
+                    <input type="number" placeholder="Phone" name="phone" id="phone" required>
+                </td>
+                
+            </tr>
+            <br><br>
+            <tr>
+                <td>
+                    Address 
+                </td><br><br>
+                <td>
+                    <textarea name="address" id="address" cols="22" rows="4" placeholder="address" required></textarea>
+                </td>
+            </tr><br><br>
+            <tr>
+                <td>
+                    Pin code 
+                </td><br><br>
+                <td>
+                    <input type="number" name="pin" value="pin" id="pin" required>
+                </td>
+            </tr>
+            <br><br><br>
+            <h4>please keep your total cash handy on delivery</h4><br>
+            <button type="submit" id="submit">Make Payment</button>
+        </div>
+        </form>
+    </section>
+    <footer class="copyright">copyright@tulsionmark | All rights reserved</footer>
+</body>
+</html>

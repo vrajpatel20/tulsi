@@ -1,0 +1,332 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Gayatri Menu</title>
+    <link rel="stylesheet" href="gayatri.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./tulsi_3.png" alt="">
+        </div>
+        <div class="cart">
+            <button>
+                <i class="fa fa-shopping-cart"></i>
+            </button>
+        </div>
+    </nav>
+    <h1 class="menu">Gayatri Menu</h1>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>સાદા ખમણ</h1>
+                <h2>₹100</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>સાદા પાતરા</h1>
+                <h2>₹140</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>ઇદડા</h1>
+                <h2>₹120</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>જલેબી</h1>
+                <h2>₹140</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>સેવ ખમણ</h1>
+                <h2>₹160</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>સેવ ખમણી</h1>
+                <h2>₹160</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>પાટોડી</h1>
+                <h2>₹160</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>મિક્સ ભજીયા</h1>
+                <h2>₹200</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>સમોસા</h1>
+                <h2>₹200</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>પેટીસ</h1>
+                <h2>₹200</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="jmenu1">
+            <div class="jimg1">
+            </div>
+            <div class="jinfo1">
+                <h1>ફરસાણ</h1>
+                <h2>₹200</h2>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="gayatri.css">
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-inverse bg-inverse fixed-topp bg-faded">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span
+                        class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear
+                    Cart</button>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="menu">Gayatri Menu</h1>
+    <!-- Main -->
+    <div class="container">
+        <div class="row center">
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                        <!-- alt="Card image cap"> -->
+                    <div class="card-block">
+                        <h4 class="card-title">સાદા ખમણ</h4>
+                        <p class="card-text">Price: ₹100</p>
+                        <a href="#" data-name="સાદા ખમણ" data-price="100" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">સાદા પાતરા</h4>
+                        <p class="card-text">Price: ₹140</p>
+                        <a href="#" data-name="સાદા પાતરા" data-price="140" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">ઇદડા</h4>
+                        <p class="card-text">Price: ₹120</p>
+                        <a href="#" data-name="ઇદડા" data-price="120" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">જલેબી</h4>
+                        <p class="card-text">Price: ₹140</p>
+                        <a href="#" data-name="જલેબી" data-price="140" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">સેવ ખમણ</h4>
+                        <p class="card-text">Price: ₹160</p>
+                        <a href="#" data-name="સેવ ખમણ" data-price="160" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">સેવ ખમણી</h4>
+                        <p class="card-text">Price: ₹160</p>
+                        <a href="#" data-name="સેવ ખમણી" data-price="160" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">પાટોડી</h4>
+                        <p class="card-text">Price: ₹160</p>
+                        <a href="#" data-name="પાટોડી" data-price="160" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">મિક્સ ભજીયા</h4>
+                        <p class="card-text">Price: ₹200</p>
+                        <a href="#" data-name="મિક્સ ભજીયા" data-price="200" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">સમોસા</h4>
+                        <p class="card-text">Price: ₹200</p>
+                        <a href="#" data-name="સમોસા" data-price="200" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">પેટીસ</h4>
+                        <p class="card-text">Price: ₹200</p>
+                        <a href="#" data-name="પેટીસ" data-price="200" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./rasavada khaman.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">ફરસાણ</h4>
+                        <p class="card-text">Price: ₹200</p>
+                        <a href="#" data-name="ફરસાણ" data-price="200" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="show-cart table">
+
+                    </table>
+                    <div>Total price: ₹<span class="total-cart"></span></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="../Payment/payment.html">
+                        <button type="button" class="btn btn-primary">Order now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="gayatri.js"></script>
+</body>
+
+</html>

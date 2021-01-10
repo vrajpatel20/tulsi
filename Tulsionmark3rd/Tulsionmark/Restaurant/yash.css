@@ -1,0 +1,70 @@
+body {
+  padding-top: 80px;
+  background-color: #bbce66a4;
+}
+
+.btn-primary{
+  width: 100px;
+  background-color: orangered;
+  border: none;
+  box-shadow: 2px 5px 5px white;
+  margin-right: 10px;
+}
+
+.clear-cart{
+  width: 100px;
+  border: none;
+  box-shadow: 2px 5px 5px white;
+  margin-right: 10px;
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+  background-color: rgba(255, 0, 0, 0.652);
+  border-radius: 5%;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.754);
+}
+.card-img-top {
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  border: 1px solid white;
+}
+
+.fixed-topp {
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* left: 0; */
+  z-index: 1030;
+}
+
+.container{
+  display: flex;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+}
+
+.menu{
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  text-shadow: 2px 5px 2px black;
+}
+
+.card-title{color: whitesmoke;}
+.card-text{color: whitesmoke;}
+
+.center{
+    text-align: center;
+    /* display: inline; */
+}
+
+.add-to-cart{background-color: rgb(255, 68, 0); border: none; box-shadow: 2px 2px 2px black; margin-bottom: 5%; width: 100%;}

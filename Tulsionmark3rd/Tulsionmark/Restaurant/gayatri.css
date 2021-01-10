@@ -1,0 +1,494 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 100%;
+  height: 18vh;
+  text-align: center;
+}
+
+.logo img {
+  width: 15%;
+}
+
+.cart {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.cart button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+}
+
+.menu {
+  font-size: 30px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+}
+
+.jmenu1 {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.jimg1 {
+  width: 20vw;
+  background-image: url(./rasavada\ khaman.jpeg);
+  background-size: 100% 100%;
+}
+
+.jinfo1 {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.jinfo1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.jinfo1 button:hover {
+  opacity: 0.7;
+} */
+
+/* responsive  */
+
+/* @media(max-width: 1200px){
+  .navbar .logo img{
+    height: 10vh;
+    width: 40%;
+  }
+}
+
+@media(max-width: 1000px){
+    .navbar .logo img{
+      height: 10vh;
+      width: 40%;
+    }
+} */
+
+
+
+body {
+  padding-top: 80px;
+  background-color: #bbce66a4;
+}
+
+.btn-primary{
+  width: 100px;
+  background-color: orangered;
+  border: none;
+  box-shadow: 2px 5px 5px white;
+  margin-right: 10px;
+}
+
+.clear-cart{
+  width: 100px;
+  border: none;
+  box-shadow: 2px 5px 5px white;
+  margin-right: 10px;
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+  background-color: rgba(255, 0, 0, 0.652);
+  border-radius: 5%;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.754);
+}
+.card-img-top {
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  border: 1px solid white;
+}
+
+.fixed-topp {
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* left: 0; */
+  z-index: 1030;
+}
+
+.container{
+  display: flex;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+}
+
+.menu{
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  text-shadow: 2px 5px 2px black;
+}
+
+.card-title{color: whitesmoke;}
+.card-text{color: whitesmoke;}
+
+.center{
+    text-align: center;
+    /* display: inline; */
+}
+
+.add-to-cart{background-color: rgb(255, 68, 0); border: none; box-shadow: 2px 2px 2px black; margin-bottom: 5%; width: 100%;}

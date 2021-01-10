@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.748);
+}
+
+.logo img {
+  height: 200%;
+  width: 35%;
+  /* background-color: aqua; */
+}
+
+.jalaram {
+  /* background-color: yellow; */
+  height: 20vh;
+  width: 100%;
+
+  text-align: center;
+  margin-top: 10px;
+}
+
+.jalaram img {
+  width: 50%;
+  height: 20vh;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px rgb(106, 105, 105);
+  background-size: 100% 100%;
+  background-color: violet;
+}
+
+.gayatri {
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.gayatri img {
+  width: 50%;
+  height: 20vh;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px rgb(106, 105, 105);
+}
+
+.yash {
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.yash img {
+  width: 50%;
+  height: 20vh;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px rgb(106, 105, 105);
+}
+
+@media(max-width:500px)
+{
+  .logo{
+    height: 10vh;
+  }
+  .logo img{
+    height: 200%;
+    width: 50%;
+  }
+  .jalaram{
+    height: 10vh;
+  }
+  .jalaram img{
+    height: 10vh;
+  }
+
+  .gayatri{
+    height: 10vh;
+  }
+  .gayatri img{
+    height: 10vh;
+  }
+
+  .yash{
+    height: 10vh;
+  }
+  .yash img{
+    height: 10vh;
+  }
+}
